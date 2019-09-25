@@ -9,8 +9,11 @@ def test_not_equal(a, b):
 
 def test_is_in(collection, item):
     assert item in collection, "{0} does not contain {1}".format(collection, item) 
-    assert not item in collection, "passed" 
+
+def test_not_in(collection, item):
+    assert not item in collection, "{0} is in {1}".format(collection, item)    
 
 # test_are_equal(number_of_evens([1,2,3,4,5]), 2)
 # test_not_equal(0,0)
-test_is_in([0], 2)
+# test_is_in([0], 2)
+test_not_in([0], 2)
