@@ -16,4 +16,4 @@ def test_not_in(collection, item):
 # test_are_equal(number_of_evens([1,2,3,4,5]), 2)
 # test_not_equal(0,0)
 # test_is_in([0], 2)
-test_not_in([0], 2)
+test_not_in([1], 2)
